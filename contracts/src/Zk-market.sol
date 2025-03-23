@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-import {ISP1Verifier} from "@sp1-contracts/ISP1Verifier.sol";
+import {ISP1Verifier} from "sp1-contracts/src/ISP1Verifier.sol";
 
 /// @title ZkConfideBettingMarket
 /// @notice Verifies zkVM proofs of bet processing (odds, result, settlement)
